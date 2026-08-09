@@ -56,6 +56,7 @@ Returns a list of example users.
 
 ## Project Structure
 
+```bash
 kubernetes-flask-api/
 |
 ├── app/
@@ -72,7 +73,7 @@ kubernetes-flask-api/
 ├── .dockerignore
 ├── .gitignore
 └── README.md
-
+```
 ## Docker
 
 The Flask application is packaged into a Docker image.
