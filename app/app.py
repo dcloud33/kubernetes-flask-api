@@ -1,12 +1,20 @@
 from flask import Flask, jsonify
+import os
+
+
 
 app = Flask(__name__)
 
+environment = os.getenv(
+    "APP_ENV",
+    "development"
+)
 
 @app.route("/")
 def hello():
     return jsonify({
-        "message": "Welcome to my Kubernetes Flask API"
+        "message": "Welcome to my Kubernetes Flask API",
+        "environment": environment
     })
 
 

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: flask-api-config
+  namespace: flask-api
+
+data:
+  APP_ENV: "kubernetes"
