@@ -770,16 +770,3 @@ This project demonstrates hands-on experience with:
 
 ---
 
-What I Learned
-
-This project helped build an understanding of Kubernetes beyond simply deploying YAML manifests.
-
-The application starts as Python source code, is packaged into a Docker image, and is then managed as a containerized workload by Kubernetes.
-
-The project demonstrates how a Deployment defines the desired state of the application, how ReplicaSets maintain the requested number of Pods, how Services provide stable access to dynamic Pods, and how labels and selectors connect Kubernetes resources.
-
-It also demonstrates the difference between readiness and liveness checks, how configuration can be separated from application code with ConfigMaps, and how Kubernetes responds when actual cluster state no longer matches the desired state.
-
-Troubleshooting exercises were intentionally included to practice identifying problems using Pod status, Kubernetes events, application logs, Service endpoints, and resource configuration.
-
-The goal of the project is not only to successfully deploy an application, but to understand how Kubernetes manages, networks, monitors, scales, updates, and recovers containerized workloads.
